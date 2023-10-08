@@ -1,0 +1,29 @@
+{
+  "name": "survival-for",
+  "version": "1.0.0",
+  "description": "Survival For Multiverse collection of apps. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphara/survival-for.git"
+  },
+  "keywords": [
+    "suvival",
+    "for",
+    "poor&rich",
+    "helppeople",
+    "react",
+    "node",
+    "participation",
+    "requested"
+  ],
+  "author": "Artem Arakcheev <artarakcheev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alphara/survival-for/issues"
+  },
+  "homepage": "https://github.com/alphara/survival-for#readme"
+}
