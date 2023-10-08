@@ -35,7 +35,7 @@ const { MediaContextProvider, Media } = createMedia({
 const HomepageHeading = ({ mobile, available, logIn }) => {
   return (
     <Container text>
-      <Image alt="logo" style={{ marginTop: '6em', marginBottom: '6em' }} src='/images/title-logo-1080x280.png' centered />
+      <Image alt="logo" style={{ marginTop: '6em', marginBottom: '6em' }} src='/images/favicon_io/android-chrome-512x512.png' centered />
       <Header
         as='h1'
         style={{
@@ -44,7 +44,7 @@ const HomepageHeading = ({ mobile, available, logIn }) => {
           marginTop: mobile ? '0' : '0',
         }}
       >
-        <span style={{color: 'gold'}}>AI Evoking Laugh</span>
+        <span style={{color: 'gold'}}>Survival For Poor & Rich</span>
       </Header>
       <Header
         as='h2'
@@ -55,7 +55,7 @@ const HomepageHeading = ({ mobile, available, logIn }) => {
           marginBottom: '2em',
         }}
       >
-        <span style={{color: 'dimgray'}}>Learn Humor and Make Funny Jokes with AI.</span>
+        <span style={{color: 'dimgray'}}>Learn Survival and Discover Happy Financial Life with Quantum AI.</span>
       </Header>
       <Button
         style={{
@@ -94,7 +94,7 @@ const DesktopContainer = ({ children, available, logIn }) => {
           >
             <Container>
               <Menu.Item active>
-                <Image avatar alt="logo" src='/images/logo192.png' />
+                <Image avatar alt="logo" src='/images/favicon_io/android-chrome-192x192.png' />
                 <Link to='/'> {' '} Home</Link>
               </Menu.Item>
               <Menu.Item position='right'>
@@ -266,107 +266,122 @@ const HomepageLayout = () => {
       <Segment style={{ padding: '8em 0em' }} vertical>
         <Grid container stackable verticalAlign='middle'>
           <Grid.Row>
+            <Grid.Column floated='right' width={6}>
+              <Image bordered rounded size='large' src='/images/00001.jpg' />
+            </Grid.Column>
+            <Grid.Column floated='left' width={6}>
+              <Image bordered rounded size='large' src='/images/00002.jpg' />
+            </Grid.Column>
+          </Grid.Row>
+          <Grid.Row>
             <Grid.Column floated='left' width={8}>
               <Header as='h3' style={{ fontSize: '2em' }}>
-                Our app helps you develop your sense of humor and create hilarious jokes on any topic.
-              </Header>
-              <p style={{ fontSize: '1.33em' }}>
-
-              </p>
-
-              <Header as='h3' style={{ fontSize: '2em' }}>
-                Features
+Learn how to survive on a tight budget and make the most of your resources.
               </Header>
               <p style={{ fontSize: '1.33em' }}>
                 <ul>
                   <li>
-                    <b>Learn the science of humor:</b> Our app teaches you the different types of humor, how to identify them, and how to use them in your own writing.
+Body
                   </li>
                   <li>
-                    <b>Generate funny jokes on any topic:</b> Simply select a topic and our app will generate funny jokes for you.
+Are you struggling to make ends meet? Do you feel like you're constantly one paycheck away from financial disaster? If so, you're not alone. Millions of people around the world live on a tight budget, but that doesn't mean you have to give up on your dreams.
                   </li>
                   <li>
-                    <b>Improve your social skills:</b> Humor is a great way to connect with others and make new friends. Our app can help you become more confident and charismatic in social situations.
+
+Survival For Poor is a web app that can teach you how to survive on a tight budget and make the most of your resources. We offer a variety of articles, videos, and resources on topics such as:
+                  </li>
+                  <li>
+
+Budgeting
+                  </li>
+                  <li>
+Saving money
+                  </li>
+                  <li>
+Cooking on a budget
+                  </li>
+                  <li>
+Finding affordable housing
+                  </li>
+                  <li>
+Getting a job
+                  </li>
+                  <li>
+Starting a business
+                  </li>
+                  <li>
+And much more!
+                  </li>
+                  <li>
+
+Call to action
+                  </li>
+                  <li>
+
+Sign up for a free account today and start learning how to survive on a tight budget!
+                  </li>
+                  <li>
+
+Dashboard for Survival For Rich
+                  </li>
+                  <li>
+
+The dashboard for Survival For Rich would be a more exclusive section of the web app, only accessible to users who have signed up for a personal or team account. This section would offer more in-depth content on topics such as:
+                  </li>
+                  <li>
+
+Investing
+                  </li>
+                  <li>
+Real estate
+                  </li>
+                  <li>
+Wealth management
+                  </li>
+                  <li>
+Luxury lifestyle
+                  </li>
+                  <li>
+And more!
+                  </li>
+                  <li>
+Can a poor author develop the code for the system for the rich without knowledge of sufficient luxury?
+                  </li>
+                  <li>
+
+Yes, a poor author can develop the code for the system for the rich without knowledge of sufficient luxury. The code for a web app is typically written in a programming language such as JavaScript, Python, or Ruby. These languages are general-purpose languages that can be used to build a wide variety of web applications, including Survival For Poor and Survival For Rich.
+                  </li>
+                  <li>
+
+The author would need to have a good understanding of the programming language they are using, as well as the web development framework they are using (such as React.js and Semantic UI React). However, they do not need to have personal experience with luxury goods and services in order to write the code for the web app.
+                  </li>
+                  <li>
+
+Of course, it would be helpful for the author to have some understanding of the needs of the rich. This could be done through research, interviews, or surveys. However, it is not essential for the author to have personal experience with luxury in order to write the code for the web app.
+                  </li>
+                  <li>
+
+Conclusion
+                  </li>
+                  <li>
+
+It is possible for a poor author to develop the code for a web app about survival for the rich, even if they do not have personal experience with luxury goods and services. The author would need to have a good understanding of the programming language they are using and the web development framework they are using. They would also need to have some understanding of the needs of the rich. However, it is not essential for the author to have personal experience with luxury in order to write the code for the web app.
                   </li>
                 </ul>
               </p>
 
               <Header as='h3' style={{ fontSize: '2em' }}>
-                Benefits
               </Header>
               <p style={{ fontSize: '1.33em' }}>
-                <ul>
-                  <li>
-                    <b>Be more likable:</b> Humor is a great way to connect with people and make them smile.
-                  </li>
-                  <li>
-                    <b>Be more successful:</b> Humor can help you succeed in your career and personal life.
-                  </li>
-                  <li>
-                    <b>Be more confident:</b> When you know how to make people laugh, you will feel more confident in yourself.
-                  </li>
-                </ul>
               </p>
             </Grid.Column>
             <Grid.Column floated='right' width={6}>
-              <Image bordered rounded size='large' src='/images/laughting-group-1.png' />
+              <Image bordered rounded size='large' src='/images/00003.jpg' />
             </Grid.Column>
           </Grid.Row>
           <Grid.Row>
             <Grid.Column floated='left' width={6}>
-              <Image bordered rounded size='large' src='/images/laughting-group-2.png' />
-            </Grid.Column>
-            <Grid.Column floated='right' width={8}>
-              <Header as='h3' style={{ fontSize: '2em' }}>
-                Learn Humor
-              </Header>
-              <p style={{ fontSize: '1.33em' }}>
-                <ul>
-                  <li>
-                    Our app teaches you the fundamentals of humor, such as how to use wordplay, irony, and exaggeration.
-                  </li>
-                  <li>
-                    You will learn how to craft different types of jokes, such as puns, one-liners, and sketch comedies.
-                  </li>
-                  <li>
-                    You will also learn how to tailor your humor to different audiences.
-                  </li>
-                </ul>
-              </p>
-
-              <Header as='h3' style={{ fontSize: '2em' }}>
-                Make Funny Jokes
-              </Header>
-              <p style={{ fontSize: '1.33em' }}>
-                <ul>
-                  <li>
-                    Our AI-powered joke generator can help you create funny jokes on any topic, no matter how mundane.
-                  </li>
-                  <li>
-                    Simply enter a topic and our AI will generate a list of jokes for you.
-                  </li>
-                  <li>
-                    You can also edit the jokes to make them your own.
-                  </li>
-                </ul>
-              </p>
-
-              <Header as='h3' style={{ fontSize: '2em' }}>
-                Valuable Features
-              </Header>
-              <p style={{ fontSize: '1.33em' }}>
-                <ul>
-                  <li>
-                    <b>Community:</b> Connect with other users and share your jokes and feedback.
-                  </li>
-                  <li>
-                    <b>Challenges:</b> Complete challenges to earn rewards and improve your humor skills.
-                  </li>
-                  <li>
-                    <b>Leaderboards:</b> See how you stack up against other users on our leaderboards.
-                  </li>
-                </ul>
-              </p>
+              <Image bordered rounded size='large' src='/images/00004.jpg' />
             </Grid.Column>
           </Grid.Row>
           <Grid.Row>
@@ -382,24 +397,29 @@ const HomepageLayout = () => {
 
       <Segment style={{ padding: '0em' }} vertical>
         <Grid celled='internally' columns='equal' stackable>
-          <Grid.Row textAlign='center'>
-            <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-              <Header as='h4' style={{ fontSize: '1.5em' }}>
-                "I've always wanted to be funnier, but I never knew where to start. This app has helped me develop my sense of humor and write my own funny jokes. I'm so glad I found it!"
-              </Header>
-              <p style={{ fontSize: '1.33em' }}>
-                <Image avatar src='/images/male.jpeg' />
-                - Mason Rodriguez
-              </p>
+          <Grid.Row>
+            <Grid.Column floated='right' width={6}>
+              <Image bordered rounded size='large' src='/images/00001 (1).jpg' />
             </Grid.Column>
-            <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-              <Header as='h4' style={{ fontSize: '1.5em' }}>
-                "I use this app every day to generate funny jokes for my social media posts. It's so easy to use and the jokes are always hilarious. My followers love it!"
-              </Header>
-              <p style={{ fontSize: '1.33em' }}>
-                <Image avatar src='/images/female.jpeg' />
-                - Sofia Johnson
-              </p>
+          </Grid.Row>
+          <Grid.Row>
+            <Grid.Column floated='left' width={6}>
+              <Image bordered rounded size='large' src='/images/00002 (1).jpg' />
+            </Grid.Column>
+          </Grid.Row>
+        </Grid>
+      </Segment>
+
+      <Segment style={{ padding: '0em' }} vertical>
+        <Grid celled='internally' columns='equal' stackable>
+          <Grid.Row>
+            <Grid.Column floated='right' width={6}>
+              <Image bordered rounded size='large' src='/images/00003 (1).jpg' />
+            </Grid.Column>
+          </Grid.Row>
+          <Grid.Row>
+            <Grid.Column floated='left' width={6}>
+              <Image bordered rounded size='large' src='/images/00004 (1).jpg' />
             </Grid.Column>
           </Grid.Row>
         </Grid>
@@ -434,11 +454,11 @@ const HomepageLayout = () => {
             style={{ margin: '3em 0em', textTransform: 'uppercase' }}
           >
             <a href='#'>
-              Ready to Laugh?
+              Ready to Survive Out?
             </a>
           </Divider>
           <p style={{ fontSize: '1.33em' }}>
-            Sign up for free today and start learning humor and making funny jokes!
+            Sign up for free today and start learning and teaching survival and making the lives loved ones!
           </p>
           <Button size='large' color='yellow' onClick={() => logIn(false)}>
             { available ? 'Get Started Today' : 'Join a Whitelist' }

@@ -1,19 +1,19 @@
 {
-  "short_name": "Joke Funnier",
-  "name": "AI Evoking Laugh",
+  "short_name": "Survival For",
+  "name": "Survival for Poor & Rich",
   "icons": [
     {
-      "src": "images/favicon.ico",
+      "src": "images/favicon_io/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "images/logo192.png",
+      "src": "images/favicon_io/android-chrome-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "images/logo512.png",
+      "src": "images/favicon_io/android-chrome-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
