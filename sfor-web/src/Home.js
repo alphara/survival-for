@@ -3,7 +3,7 @@
 
 import { createMedia } from '@artsy/fresnel'
 import PropTypes from 'prop-types'
-import React, {  useState, useEffect } from 'react'
+import React, {  useState, useEffect, useRef } from 'react'
 import { InView } from 'react-intersection-observer'
 import { Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
@@ -226,6 +226,11 @@ const HomepageLayout = () => {
   const navigate = useNavigate()
   const [available, setAvailable] = useState(true)
 
+  const [iframeUrl, setIframeUrl] = useState("https://ru.pinterest.com/pin/384987468162134311/")
+  const iframeRef = useRef(null);
+  const [iframeUrl1, setIframeUrl1] = useState('https://www.tiktok.com/@beesteez/video/7112757090044677382?q=honey%20bees&t=1696817432692')
+  const iframeRef1 = useRef(null);
+
   const logIn = (openLogin) => {
     if (available) {
       // navigate('/chat')
@@ -403,6 +408,40 @@ It is possible for a poor author to develop the code for a web app about surviva
           <Grid.Row>
             <Grid.Column floated='left' width={6}>
               <Image bordered rounded size='large' src='/images/00002 (1).jpg' />
+            </Grid.Column>
+          </Grid.Row>
+        </Grid>
+      </Segment>
+
+      <Segment style={{ padding: '0em' }} vertical>
+        <Grid celled='internally' columns='equal' stackable>
+          <Grid.Row>
+            <Grid.Column floated='right' width={6}>
+              <Container fluid style={{marginTop: '0.3em'}}>
+                <iframe
+                  title="Honey Bees"
+                  src={iframeUrl1}
+                  width="100%"
+                  height="850px"
+                  ref={iframeRef1}
+                >
+                </iframe>
+              </Container>
+            </Grid.Column>
+          </Grid.Row>
+          <Grid.Row>
+            <Grid.Column floated='left' width={6}>
+
+              <Container fluid style={{marginTop: '0.3em'}}>
+                <iframe
+                  title="AI Generated Mermaid"
+                  src={iframeUrl}
+                  width="100%"
+                  height="850px"
+                  ref={iframeRef}
+                >
+                </iframe>
+              </Container>
             </Grid.Column>
           </Grid.Row>
         </Grid>
