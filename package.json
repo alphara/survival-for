@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/alphara/survival-for/issues"
   },
-  "homepage": "https://linkedin.com/showcase/survival-for"
+  "homepage": "https://linkedin.com/showcase/survival-for",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
