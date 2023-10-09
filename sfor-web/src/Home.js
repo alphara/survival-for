@@ -351,7 +351,7 @@ Yes, a poor author can develop the code for the system for the rich without know
                   </li>
                   <li>
 
-The author would need to have a good understanding of the programming language they are using, as well as the web development framework they are using (such as React.js and Semantic UI React). However, they do not need to have personal experience with luxury goods and services in order to write the code for the web app.
+The author would need to have a good understanding of the programming language they are using, as well as the web development framework they are using (such as React.js and Semantic UI React). However, they can have personal experience with luxury goods and services in order to write the code for the web app.
                   </li>
                   <li>
 
