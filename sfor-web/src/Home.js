@@ -478,8 +478,8 @@ It is possible for a poor author to develop the code for a web app about surviva
                     </a>
                   </List.Item>
                   <List.Item as='a'>
-                    <a href='https://www.linkedin.com/showcase/joke-funnier/' target='_blank' rel='noopener noreferrer'>
-                      Follow on LinkedIn
+                    <a href='https://www.linkedin.com/showcase/survival-for' target='_blank' rel='noopener noreferrer'>
+                      Follow Survival For on LinkedIn
                     </a>
                   </List.Item>
                   {/*
