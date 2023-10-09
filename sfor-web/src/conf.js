@@ -4,11 +4,11 @@ const conf = {
   },
 
   api: {
-    url: process.env.REACT_APP_API_URL || 'http://localhost:6209/v1',
+    url: process.env.REACT_APP_API_URL || 'http://localhost:6339/v1',
   },
 
   interestForm: {
-    url: process.env.REACT_APP_INTEREST_FORM_URL || 'https://forms.gle/bB8mQovNHsRiqYbz5',
+    url: process.env.REACT_APP_INTEREST_FORM_URL || 'https://forms.gle/KKY6K8kG87Kvxk8w7',
   },
 
   // chat: {

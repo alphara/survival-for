@@ -19,8 +19,6 @@ import {
   Menu,
   Segment,
   Sidebar,
-  Tab,
-  Message,
 } from 'semantic-ui-react'
 import conf from './conf'
 
@@ -531,13 +529,18 @@ It is possible for a poor author to develop the code for a web app about surviva
                       Joke Funnier
                     </a>
                   </List.Item>
+                  <List.Item as='a'>
+                    <a href='https://sf.vuics.com' target='_blank' rel='noopener noreferrer'>
+                      Survival For
+                    </a>
+                  </List.Item>
                 </List>
               </Grid.Column>
               <Grid.Column width={7}>
                 <List link inverted>
                   <List.Item as='a'>
                     <p>
-                      Fill the world with laughter.
+                      Fill the world with the smile or laughter.
                     </p>
                   </List.Item>
                   <List.Item as='a'>
